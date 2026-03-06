@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    color: white;
+    font-weight: 900;
+    
+}
+span{
+    font-style: italic;
+    color: #4a90c4;
+}
+#nav-bar{
+    background-color: #0d2137;
+    font-family: 'Courier New', Courier, monospace;
+}
+nav p{
+    display: inline-block;
+}
+nav ul li{
+    display: inline-block;
+    gap:50px;
+    margin: 10px;
+    
+}
+nav ul{
+    padding: 15px;
+    }
+.nav-links{
+    float: right;
+}
