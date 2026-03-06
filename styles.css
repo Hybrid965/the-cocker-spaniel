@@ -1,9 +1,11 @@
 *{
     margin: 0;
     color: white;
-    font-weight: 900;
     
 }
+
+/* Nav Bar Content */
+
 span{
     font-style: italic;
     color: #4a90c4;
@@ -11,6 +13,8 @@ span{
 #nav-bar{
     background-color: #0d2137;
     font-family: 'Courier New', Courier, monospace;
+    position: sticky;
+    font-weight: 900;
 }
 nav p{
     display: inline-block;
@@ -27,4 +31,33 @@ nav ul{
     }
 .nav-links{
     float: right;
+}
+
+/* Section 1 Content */
+.section-1-content{
+    width: 100%;
+    min-height: 400px;
+    max-height: 400px;
+    background-color: #122c47;
+    background: linear-gradient(to right, #122c47 50%, rgb(160, 159, 158) 100%);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Playfair Display', serif;
+    }
+.section-1-content h1{
+    padding-bottom: 15px;
+    font-size: 45px;
+    letter-spacing: 2px;
+    margin-left: 20px;
+}
+.section-1-content h2{
+    padding-bottom: 5px;
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+.section-1-content p{
+    margin-left:20px;
 }
