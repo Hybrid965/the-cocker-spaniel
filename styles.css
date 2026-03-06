@@ -44,20 +44,37 @@ nav ul{
     flex-direction: column;
     justify-content: center;
     font-family: 'Playfair Display', serif;
+    
     }
 .section-1-content h1{
     padding-bottom: 15px;
-    font-size: 45px;
-    letter-spacing: 2px;
-    margin-left: 20px;
-}
-.section-1-content h2{
-    padding-bottom: 5px;
     font-size: 40px;
     letter-spacing: 2px;
     margin-left: 20px;
-    padding-bottom: 20px;
+    font-weight: 900;
+}
+.section-1-content h2{
+    padding-bottom: 5px;
+    font-size: 35px;
+    letter-spacing: 2px;
+    margin-left: 20px;
+    font-weight: 900;
+    
 }
 .section-1-content p{
     margin-left:20px;
+    font-weight: 100;
+}
+.section-1-content button{
+    min-width: 100px;
+    max-width: 150px;
+    margin: 20px;
+    color: white;
+    background-color: rgb(170, 120, 28);
+    padding: 15px;
+    border-color: rgb(170, 120, 28);
+}
+.section-1-content button:hover{
+    opacity: 0.9; 
+    
 }
