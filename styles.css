@@ -23,6 +23,7 @@ nav ul li{
 }
 nav ul{
     padding: 15px;
+    border-bottom: #4a90c4 3px solid;
     }
 .nav-links{
     float: right;
