@@ -1,7 +1,10 @@
 *{
-    margin: 0;
-    color: white;
-    
+    margin: 0; 
+    padding: 0;
+}
+body{
+    margin:0;
+    padding: 0;
 }
 
 /* Nav Bar Content */
@@ -13,8 +16,8 @@ span{
 #nav-bar{
     background-color: #0d2137;
     font-family: 'Courier New', Courier, monospace;
-    position: sticky;
     font-weight: 900;
+    color:white;
 }
 nav p{
     display: inline-block;
@@ -44,6 +47,8 @@ nav ul{
     flex-direction: column;
     justify-content: center;
     font-family: 'Playfair Display', serif;
+    color: white;
+    
     
     }
 .section-1-content h1{
@@ -77,4 +82,22 @@ nav ul{
 .section-1-content button:hover{
     opacity: 0.9; 
     
+}
+
+/* Mini hero boxes */
+#section-2-content{
+    display: flex;
+ 
+}
+.mini-boxes{
+    flex-grow: 1;                    
+    border: 1px solid rgba(247, 247, 247, 0.37);
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;        
+    text-align: center;
+    background-color: #122c47;
+    color: white;    
 }
