@@ -23,7 +23,7 @@ body{
     font-family: 'Playfair Display', serif;
 }
 /* Section 1 Content */
-.section-1-content{
+.hero{
     width: 100%;
     min-height: 400px;
     max-height: 400px;
@@ -37,14 +37,14 @@ body{
     
     
     }
-.section-1-content h1{
+.hero header h1{
     padding-bottom: 15px;
     font-size: 40px;
     letter-spacing: 2px;
     margin-left: 20px;
     font-weight: 900;
 }
-.section-1-content h2{
+.hero header h2{
     padding-bottom: 5px;
     font-size: 35px;
     margin-left: 20px;
@@ -53,11 +53,11 @@ body{
     font-size: 45px;
     
 }
-.section-1-content p{
+.hero p{
     margin-left:20px;
     font-weight: 100;
 }
-.section-1-content button{
+.hero button{
     min-width: 100px;
     max-width: 150px;
     margin: 20px;
@@ -66,26 +66,26 @@ body{
     padding: 15px;
     border-color: rgb(170, 120, 28);
 }
-.section-1-content button:hover{
+.hero button:hover{
     opacity: 0.9; 
 }
 
-.section-1-content a{
+.hero a{
     color: white;
     text-decoration: none;
     font-size: 18px;
 }
-.section-1-content ul{
+.hero ul{
     display:inline-block
 }
 
-.section-1-content span{
+.hero span{
     color: #c49a6c;
     font-style: italic;
 
 }
 /* Mini hero boxes */
-#section-2-content{
+#mini-hero{
     display: flex;
  
 }
