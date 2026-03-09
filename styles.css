@@ -171,11 +171,14 @@ main{
         overflow-x: hidden;
     }
 
+    /* Mini Hero */
+    .mini-boxes p{
+    font-size: 20px;
+    }
+
     /* Article Section */
     #spaniel-article section {
-        flex-direction: column;
-        
-        
+        flex-direction: column; 
     }
 
     #spaniel-article img {
@@ -183,7 +186,6 @@ main{
         height: auto;
         order: -1;
         object-fit: cover;
-        transform: translate(-160px, 0px)
     }
 
     #spaniel-article {
@@ -193,6 +195,9 @@ main{
     }
     #spaniel-article p{
         padding: 10px;
+        margin-right: 20px;
+    }
+    #spaniel-article h3{
         margin-right: 20px;
     }
 }
