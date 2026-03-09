@@ -45,14 +45,14 @@ main{
     
     
     }
-.hero header h1{
+.hero h1{
     padding-bottom: 15px;
     font-size: 40px;
     letter-spacing: 2px;
     margin-left: 20px;
     font-weight: 900;
 }
-.hero header h2{
+.hero h2{
     padding-bottom: 5px;
     font-size: 35px;
     margin-left: 20px;
@@ -65,16 +65,16 @@ main{
     margin-left:20px;
     
 }
-.hero button{
-    min-width: 100px;
-    max-width: 150px;
+.hero a{
+    min-width: 190px;
+    max-width: 190px;
     margin: 20px;
     color: white;
     background-color: rgb(170, 120, 28);
     padding: 15px;
     border-color: rgb(170, 120, 28);
 }
-.hero button:hover{
+.hero a:hover{
     opacity: 0.9; 
 }
 
@@ -113,14 +113,14 @@ main{
     font-size: 20px;
 }
 
-.mini-boxes h5{
+.box-title{
     font-size: 14px;
     font-weight: 300;
     padding-bottom: 5px;
     color: #c49a6c;
 }
 
-.mini-boxes p{
+.box-content{
     font-size: 25px;
     font-weight: 300;
 }
@@ -132,7 +132,7 @@ main{
 
     
 }
-#spaniel-article header h3{
+#spaniel-article h3{
     font-size: 30px;
     font-weight: 700;
     padding-bottom: 20px;
@@ -151,7 +151,7 @@ main{
 
 }
 
-#spaniel-article section header {
+#spaniel-article section {
     flex: 1;
 }
 
@@ -174,7 +174,7 @@ main{
     }
 
     /* Mini Hero */
-    .mini-boxes p{
+    .box-content{
     font-size: 20px;
     }
 
