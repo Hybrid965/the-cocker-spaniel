@@ -1,20 +1,22 @@
-*{
-    margin: 0; 
+* {
+    margin: 0;
     padding: 0;
-    
+
 }
-body{
-    margin:0;
+
+body {
+    margin: 0;
     padding: 0;
     background-color: #faf6ef;
 }
 
-main{
+main {
     font-family: 'Playfair Display', serif;
 }
+
 /* ------------------------------------------------------*/
 /* Nav Bar */
-.nav-links{
+.nav-links {
     font-family: 'Playfair Display', serif;
     list-style-type: none;
     display: flex;
@@ -24,48 +26,53 @@ main{
     border-bottom: 1px solid rgba(247, 247, 247, 0.37);
 }
 
-.nav-links li a{
+.nav-links li a {
     margin-left: 20px;
     text-decoration: none;
     color: white;
-    
+
 }
+
 /* ------------------------------------------------------*/
 /* Hero Content */
-.hero{
+.hero {
     width: 100%;
     min-height: 600px;
     max-height: 600px;
     background-color: #122c47;
-    background:linear-gradient(to right, rgba(18,44,71,0.82) 45%, rgba(18,44,71,0.1) 100%);
-    display:flex;
+    background: linear-gradient(to right, rgba(18, 44, 71, 0.82) 45%, rgba(18, 44, 71, 0.1) 100%);
+    display: flex;
     flex-direction: column;
     justify-content: center;
     color: white;
-    
-    
-    }
-.hero h1{
+
+
+}
+
+.hero h1 {
     padding-bottom: 15px;
     font-size: 60px;
     letter-spacing: 2px;
     margin-left: 20px;
     font-weight: 900;
 }
-.hero h2{
+
+.hero h2 {
     padding-bottom: 5px;
     font-size: 60px;
     margin-left: 20px;
     font-weight: 900;
     letter-spacing: 1px;
     font-size: 45px;
-    
+
 }
-.hero p{
-    margin-left:20px;
-    
+
+.hero p {
+    margin-left: 20px;
+
 }
-.hero a{
+
+.hero a {
     min-width: 190px;
     max-width: 190px;
     margin: 20px;
@@ -74,77 +81,85 @@ main{
     padding: 15px;
     border-color: rgb(170, 120, 28);
 }
-.hero a:hover{
-    opacity: 0.9; 
+
+.hero a:hover {
+    opacity: 0.9;
 }
 
-.hero a{
+.hero a {
     color: white;
     text-decoration: none;
     font-size: 18px;
 }
-.hero ul{
-    display:inline-block
+
+.hero ul {
+    display: inline-block
 }
 
-.hero span{
+.hero span {
     color: #c49a6c;
     font-style: italic;
     font-size: 60px;
 
 }
+
 /* ------------------------------------------------------*/
 /* Mini hero boxes */
-#mini-hero{
+#mini-hero {
     display: flex;
- 
+
 }
-.mini-boxes{
-    flex-grow: 1;                    
+
+.mini-boxes {
+    flex-grow: 1;
     border: 1px solid rgba(247, 247, 247, 0.37);
     height: 100px;
     display: flex;
     flex-direction: column;
-    justify-content: center;    
-    align-items: center;        
+    justify-content: center;
+    align-items: center;
     text-align: center;
     background-color: #122c47;
-    color: white;    
+    color: white;
     font-weight: 500;
     font-size: 20px;
 }
 
-.box-title{
+.box-title {
     font-size: 14px;
     font-weight: 300;
     padding-bottom: 5px;
     color: #c49a6c;
 }
 
-.box-content{
+.box-content {
     font-size: 25px;
     font-weight: 300;
 }
+
 /* ------------------------------------------------------*/
 /* Article Section */
-#spaniel-article{
+#spaniel-article {
     margin: 65px 0px 0px 50px;
     padding: 20px;
 
-    
+
 }
-#spaniel-article h3{
+
+#spaniel-article h3 {
     font-size: 40px;
     font-weight: 700;
     padding-bottom: 50px;
     color: #122c47;
 }
-#spaniel-article p{
+
+#spaniel-article p {
     font-size: 17px;
     line-height: 2;
     color: #7a6a58;
     margin-bottom: 20px;
 }
+
 #spaniel-article section {
     display: flex;
     gap: 50px;
@@ -163,39 +178,45 @@ main{
     object-fit: cover;
     border: #c49a6c 4px solid;
     margin-right: 150px;
-    
+
 }
-.offset-text{
+
+.offset-text {
     display: none;
 }
+
 /* ------------------------------------------------------*/
 /* Why Choose Section*/
-#why-choose-container{
+#why-choose-container {
     background-color: #f2e8d5;
     min-height: 450px;
 }
-#why-choose-container h4{
+
+#why-choose-container h4 {
     font-size: 14px;
     letter-spacing: 2px;
     color: #8b4513;
 }
-.margin{
-    padding:65px 0px 0px 70px;
-    margin-bottom:25px
+
+.margin {
+    padding: 65px 0px 0px 70px;
+    margin-bottom: 25px
 }
-.margin span{
+
+.margin span {
     font-style: italic;
     color: #8b4513;
     font-weight: 100;
 }
-#why-choose-container h2{
+
+#why-choose-container h2 {
     color: #122c47;
     font-size: 30px;
     letter-spacing: 1px;
     font-weight: 700;
 }
 
-#choose-box-container{
+#choose-box-container {
     display: flex;
     margin: 20px 0px 0px 50px;
     padding: 20px;
@@ -203,28 +224,32 @@ main{
     flex-wrap: wrap;
 
 }
-.choose-box{
+
+.choose-box {
     display: flex;
     flex: 1 1 200px;
     flex-direction: column;
     padding: 30px;
-    background-color:#faf6ef;
+    background-color: #faf6ef;
     box-shadow: 0px 4px #e8d5b7;
     max-width: 250px;
 }
-.choose-box-title{
+
+.choose-box-title {
     font-weight: 600;
     color: #122c47;
     padding-bottom: 10px;
     letter-spacing: 1px;
     padding-top: 15px;
 }
-.choose-box-content{
-    color:#7a6a58;
+
+.choose-box-content {
+    color: #7a6a58;
     font-weight: 300;
     line-height: 1.8;
 }
-.icon{
+
+.icon {
     padding: 5px 10px 30px 10px;
     border-radius: 50%;
     width: 20px;
@@ -251,18 +276,18 @@ main{
 /* ------------------------------------------------------*/
 /* Media Querys*/
 @media (max-width: 1000px) {
-    *{
+    * {
         overflow-x: hidden;
     }
 
     /* Mini Hero */
-    .box-content{
-    font-size: 20px;
+    .box-content {
+        font-size: 20px;
     }
 
     /* Article Section */
     #spaniel-article section {
-        flex-direction: column; 
+        flex-direction: column;
         gap: 50px;
     }
 
@@ -271,23 +296,32 @@ main{
         margin: 20px 0;
         padding: 15px
     }
-    #spaniel-article p{
+
+    #spaniel-article p {
         padding: 10px;
         margin-right: 20px;
     }
-    #spaniel-article h3{
+
+    #spaniel-article h3 {
         margin-right: 20px;
     }
+
     #spaniel-article img {
         width: 50%;
-        height:auto ;
+        height: auto;
         order: 1;
         object-fit: cover;
         margin: auto;
     }
+
     /* Why Choose Section */
-    .choose-box{
-        flex-grow: 3;
+    .margin {
+        padding: 15px;
+        margin: 20px
+    }
+
+    #choose-box-container {
+        padding: 15px;
+        margin: 20px
     }
 }
-
