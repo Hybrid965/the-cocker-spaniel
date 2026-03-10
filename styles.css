@@ -47,14 +47,14 @@ main{
     }
 .hero h1{
     padding-bottom: 15px;
-    font-size: 40px;
+    font-size: 60px;
     letter-spacing: 2px;
     margin-left: 20px;
     font-weight: 900;
 }
 .hero h2{
     padding-bottom: 5px;
-    font-size: 35px;
+    font-size: 60px;
     margin-left: 20px;
     font-weight: 900;
     letter-spacing: 1px;
@@ -90,6 +90,7 @@ main{
 .hero span{
     color: #c49a6c;
     font-style: italic;
+    font-size: 60px;
 
 }
 /* ------------------------------------------------------*/
@@ -133,9 +134,9 @@ main{
     
 }
 #spaniel-article h3{
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 700;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     color: #122c47;
 }
 #spaniel-article p{
@@ -148,6 +149,7 @@ main{
     display: flex;
     gap: 50px;
     align-items: center;
+    margin-top: 50px;
 
 }
 
