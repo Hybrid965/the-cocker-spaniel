@@ -105,6 +105,10 @@ main {
 
 /* ------------------------------------------------------*/
 /* Mini hero boxes */
+.hidden{
+    display: none;
+}
+
 #mini-hero {
     display: flex;
 
