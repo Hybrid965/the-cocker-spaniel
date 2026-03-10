@@ -77,9 +77,8 @@ main {
     max-width: 190px;
     margin: 20px;
     color: white;
-    background-color: rgb(170, 120, 28);
+    background-color: #8b4513;
     padding: 15px;
-    border-color: rgb(170, 120, 28);
 }
 
 .hero a:hover {
