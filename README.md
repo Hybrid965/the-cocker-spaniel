@@ -1,9 +1,9 @@
 ## Purpose
-**The Cocker Spaniel** is an informational website created to address a gap for prospective dog owners who are researching breeds but are overwhelmed by lengthy, technical resources. The target audience is families and first-time dog owners who want a clear, friendly, and visually engaging introduction to the Cocker Spaniel breed before committing to ownership.
+**The Cocker Spaniel** is an informational website created for prospective dog owners who are researching breeds but are overwhelmed by lengthy, technical resources. The target audience is families and first-time dog owners who want a clear, friendly, and visually engaging introduction to the Cocker Spaniel breed before committing to ownership.
 
 The site provides users with accessible information on the breed's temperament, exercise needs, grooming requirements, and suitability as a family pet. Rather than presenting dense text, the content is structured around the key questions a prospective owner would ask — is this breed right for my family? How much exercise do they need? How much grooming is involved?
 
-The goal is that a new visitor can arrive at the site and within minutes have a clear, confident understanding of whether a Cocker Spaniel suits their lifestyle — without needing to consult any external sources.
+The goal is that a new visitor can arrive at the site and within minutes have a clear, confident understanding of whether a Cocker Spaniel suits their lifestyle.
 ## User Stories
 #### As a prospective owner:
 - As a prospective dog owner, I want to quickly understand the Cocker Spaniel's personality so that I can decide if the breed suits my lifestyle.
@@ -25,16 +25,16 @@ TBD
 A fixed navigation bar sits at the top of the page with links to the Home, About and Contact sections. It allows users to quickly jump to any section of the site without scrolling, and is fully responsive across all screen sizes.
 
 #### Hero Section
-A full-width hero section greets the user with a bold headline and a short tagline describing the breed. A "Discover the Breed" call-to-action button smoothly scrolls the user down to the main article section.
+A full-width hero section greets the user with a bold headline and a short tagline describing the breed. A "Discover the Breed" button scrolls the user down to the main article section.
 
 #### Quick Facts Bar
-A snapshot bar displaying four key breed stats — Size, Life Span, Energy Level and Temperament. This allows users to get an instant overview of the breed at a glance without reading the full article.
+A snapshot bar displaying four key breed stats — Size, Life Span, Energy Level and Temperament. This allows users to get an overview of the breed at a glance without reading the full article.
 
 #### Breed Article
-A detailed written section covering why Cocker Spaniels make great pets, including their personality, exercise needs, grooming requirements and trainability. Accompanied by a real photograph of a Cocker Spaniel.
+A detailed written section covering why Cocker Spaniels make great pets, including their personality, exercise needs, grooming requirements and trainability. Accompanied by a photograph of a Cocker Spaniel.
 
 #### Four Reasons Section
-A visual card-based section highlighting four key characteristics of the breed — Family Companion, Active & Adventurous, High Maintenance, and Sensitive Soul. Each card uses an emoji icon for visual clarity.
+A card-based section highlighting four key characteristics of the breed — Family Companion, Active & Adventurous, High Maintenance, and Sensitive Soul. Each card uses an emoji icon for visual clarity.
 
 #### Fully Responsive Design
 The site is fully responsive across desktop, tablet and mobile screen sizes, with layout adjustments handled through CSS media queries to ensure a consistent user experience on all devices.
@@ -99,9 +99,9 @@ git clone https://github.com/Hybrid965/the-cocker-spaniel.git
 ## Credits
 
 #### Content
-All written content on this site was written by the Creator of this site .
+All written content on this site was written by Will Burkert.
 #### Media
-All images used on this site are the Creator's own photographs.
+All images used on this sourced via personal photo's
 #### Code
 No external code snippets or libraries were used in this project.
 #### Fonts
