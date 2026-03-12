@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Playfair Display', serif;
 
 }
 
@@ -8,10 +9,6 @@ body {
     margin: 0;
     padding: 0;
     background-color: #faf6ef;
-}
-
-main {
-    font-family: 'Playfair Display', serif;
 }
 
 /* ------------------------------------------------------*/
@@ -268,8 +265,32 @@ main {
 footer{
     background-color: #122c47;
     border-top: #c49a6c 4px solid;
+    display: flex;
+    color: #faf6ef;
+    gap: 30px;
+    letter-spacing: 2px;
+    font-size: 14px;
+    
+    
 }
 
+#footer-description h3{
+    padding-bottom: 20px;
+    font-weight: 200;
+    font-size: 17px;
+}
+
+#footer-description span{
+    font-style: italic;
+    color: #c49a6c;
+}
+
+
+.footer{
+    margin: 50px;
+    flex-basis: 200px;
+    flex-grow:1;
+}
 
 
 
