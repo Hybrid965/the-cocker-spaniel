@@ -39,6 +39,10 @@ A card-based section highlighting four key characteristics of the breed — Fami
 #### Fully Responsive Design
 The site is fully responsive across desktop, tablet and mobile screen sizes, with layout adjustments handled through CSS media queries to ensure a consistent user experience on all devices.
 
+## Current Developement
+If you would like to see the features to be added in the future visit the Trello board:
+https://trello.com/b/tJPEiuzM/the-cocker-spaniel
+
 ## Testing
 #### Functionality Testing
 
