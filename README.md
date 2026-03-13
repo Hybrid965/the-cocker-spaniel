@@ -28,9 +28,6 @@ All images include alt text to meet accessibility guidelines. Semantic HTML
 elements are used throughout to aid screen reader navigation.
 
 ### Wireframes
-
-### Wireframes
-
 **Desktop Wireframes**
 
 [Home Desktop Wireframe](assets/wireframes/home-desktop.png)
