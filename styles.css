@@ -22,7 +22,17 @@ body {
     padding: 20px;
     border-bottom: 1px solid rgba(247, 247, 247, 0.37);
 }
-
+#logo{
+    display: flex;
+    justify-content: flex-start;
+    margin-right: auto;
+    color: white;
+    font-size: 18px;
+}
+#logo span{
+    color: #c49a6c;
+    font-style: italic;
+}
 .nav-links li a {
     margin-left: 20px;
     text-decoration: none;
