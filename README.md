@@ -27,17 +27,17 @@ for headings and Lato for body text, keeping the site readable and friendly.
 All images include alt text to meet accessibility guidelines. Semantic HTML 
 elements are used throughout to aid screen reader navigation.
 
-#### Wireframes
-Wireframes were created for all three pages at desktop and mobile screen sizes 
-before development began.
+### Wireframes
 
-![Home Desktop](assets/wireframes/home-desktop.png)
-![Home Mobile](assets/wireframes/home-mobile.png)
-![Care Desktop](assets/wireframes/care-desktop.png)
-![Care Mobile](assets/wireframes/care-mobile.png)
-Coming Soon:
-![History Desktop](assets/wireframes/history-desktop.png)
-![History Mobile](assets/wireframes/history-mobile.png)
+**Desktop Wireframes**
+[![Home Desktop Wireframe](assets/wireframes/home-desktop.png)](assets/wireframes/home-desktop.png)
+[![Care Desktop Wireframe](assets/wireframes/care-desktop.png)](assets/wireframes/care-desktop.png)
+[![History Desktop Wireframe](assets/wireframes/history-desktop.png)](assets/wireframes/history-desktop.png) - Coming Soon 
+
+**Mobile Wireframes**
+[![Home Mobile Wireframe](assets/wireframes/home-mobile.png)](assets/wireframes/home-mobile.png)
+[![Care Mobile Wireframe](assets/wireframes/care-mobile.png)](assets/wireframes/care-mobile.png)
+[![History Mobile Wireframe](assets/wireframes/history-mobile.png)](assets/wireframes/history-mobile.png) - Coming Soon
 
 ## Features
 #### Navigation Bar
