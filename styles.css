@@ -51,6 +51,10 @@ body {
 .nav-links li a:hover {
     color: #c49a6c;
 }
+.nav-links li a.nav-current{
+    color: #c49a6c;
+}
+
 
 /* ------------------------------------------------------*/
 /* Hero Content */
