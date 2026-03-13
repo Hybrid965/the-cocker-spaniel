@@ -51,14 +51,18 @@ body {
     font-size: 60px;
     letter-spacing: 2px;
     margin-left: 20px;
-    font-weight: 900;
+    font-weight: 500;
+}
+span.hero{
+    font-style: italic;
+    color: #c49a6c;
 }
 
 .hero h2 {
     padding-bottom: 5px;
     font-size: 60px;
     margin-left: 20px;
-    font-weight: 900;
+    font-weight: 500;
     letter-spacing: 1px;
     font-size: 45px;
 
