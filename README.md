@@ -18,7 +18,26 @@ The goal is that a new visitor can arrive at the site and within minutes have a 
 - As a first-time dog owner, I want clear and friendly information so that I don't feel overwhelmed by technical or medical jargon.
 - As a first-time owner, I want to understand how trainable the breed is so that I know what to expect when bringing a puppy home.
 ## UX Design
-TBD
+#### Design Decisions
+The site uses a warm, earthy colour palette to reflect the natural personality 
+of the breed. Deep navy (#122c47) is used for the navigation and headings to 
+provide strong contrast against lighter backgrounds. Playfair Display is used 
+for headings and Lato for body text, keeping the site readable and friendly.
+
+All images include alt text to meet accessibility guidelines. Semantic HTML 
+elements are used throughout to aid screen reader navigation.
+
+#### Wireframes
+Wireframes were created for all three pages at desktop and mobile screen sizes 
+before development began.
+
+![Home Desktop](assets/wireframes/home-desktop.png)
+![Home Mobile](assets/wireframes/home-mobile.png)
+![Care Desktop](assets/wireframes/care-desktop.png)
+![Care Mobile](assets/wireframes/care-mobile.png)
+Coming Soon:
+![History Desktop](assets/wireframes/history-desktop.png)
+![History Mobile](assets/wireframes/history-mobile.png)
 
 ## Features
 #### Navigation Bar
