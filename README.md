@@ -79,7 +79,7 @@ https://trello.com/b/tJPEiuzM/the-cocker-spaniel
 | `why choose section` - Text out of alignment on mobile the headings and boxes are out of alignment compared to the rest of the document | Yes     | 10/03    | 11230b6     |
 | `Article section` - Fix picture from shrinking text when screen size reduces                                                            | Yes     | 09/03/26 | 38c5bdb     |
 | `Article Section` - Picture isn't displaying correctly, should be at the bottom of the article when screen size reduces below 1000px    | Yes     | 09/03/26 | c05a1fb     |
-|                                                                                                                                         |         |          |             |
+| `Hero Section` - H1 is overflowing when screenwidth is below 1000px                                                                     | No      |          |             |
 ## Deployment
 #### How was this site deployed?
 This site was deployed to GitHub Pages using the following steps:
