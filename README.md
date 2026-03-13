@@ -32,13 +32,19 @@ elements are used throughout to aid screen reader navigation.
 ### Wireframes
 
 **Desktop Wireframes**
+
 [Home Desktop Wireframe](assets/wireframes/home-desktop.png)
+
 [Care Desktop Wireframe](assets/wireframes/care-desktop.png)
+
 [History Desktop Wireframe](assets/wireframes/history-desktop.png) - Coming Soon
 
 **Mobile Wireframes**
+
 [Home Mobile Wireframe](assets/wireframes/home-mobile.png)
+
 [Care Mobile Wireframe](assets/wireframes/care-mobile.png)
+
 [History Mobile Wireframe](assets/wireframes/history-mobile.png) - Coming Soon
 
 ## Features
