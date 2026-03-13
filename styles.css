@@ -18,6 +18,12 @@ body {
 
 /* ------------------------------------------------------*/
 /* Nav Bar */
+#nav-bar{
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+}
 .nav-links {
     font-family: 'Playfair Display', serif;
     list-style-type: none;
