@@ -1,7 +1,12 @@
+html {
+    overflow-x: hidden;
+}
+
 * {
     margin: 0;
     padding: 0;
     font-family: 'Playfair Display', serif;
+
 
 }
 
@@ -22,24 +27,28 @@ body {
     padding: 20px;
     border-bottom: 1px solid rgba(247, 247, 247, 0.37);
 }
-#logo{
+
+#logo {
     display: flex;
     justify-content: flex-start;
     margin-right: auto;
     color: white;
     font-size: 18px;
 }
-#logo span{
+
+#logo span {
     color: #c49a6c;
     font-style: italic;
 }
+
 .nav-links li a {
     margin-left: 20px;
     text-decoration: none;
     color: white;
 
 }
-.nav-links li a:hover{
+
+.nav-links li a:hover {
     color: #c49a6c;
 }
 
@@ -66,7 +75,8 @@ body {
     margin-left: 20px;
     font-weight: 500;
 }
-span.hero{
+
+span.hero {
     font-style: italic;
     color: #c49a6c;
 }
@@ -118,7 +128,7 @@ span.hero{
 
 /* ------------------------------------------------------*/
 /* Mini hero boxes */
-.hidden{
+.hidden {
     display: none;
 }
 
@@ -207,6 +217,7 @@ span.hero{
 #why-choose-container {
     background-color: #f2e8d5;
     min-height: 550px;
+
 }
 
 #why-choose-container h4 {
@@ -249,7 +260,7 @@ span.hero{
     padding: 30px;
     background-color: #faf6ef;
     box-shadow: 0px 4px #e8d5b7;
-    max-width: 250px;
+    margin-right: 30px;
 }
 
 .choose-box-title {
@@ -277,9 +288,10 @@ span.hero{
     font-size: 1.3em;
 
 }
+
 /* ------------------------------------------------------*/
 /* Footer */
-footer{
+footer {
     background-color: #122c47;
     border-top: #c49a6c 4px solid;
     display: flex;
@@ -288,45 +300,46 @@ footer{
     font-size: 14px;
 }
 
-.footer{
+.footer {
     margin: 50px 100px 50px 50px;
     flex-basis: 100px;
-    flex-grow:1;
+    flex-grow: 1;
     max-width: 400px;
 }
 
-#footer-explore{
-    padding-left:50px
+#footer-explore {
+    padding-left: 50px
 }
 
-#footer-explore h3{
+#footer-explore h3 {
     font-size: 15px;
     color: #c49a6c;
     padding-bottom: 20px;
 }
 
-.explore-links{
+.explore-links {
     color: #faf6ef;
     text-decoration: none;
     display: block;
     padding: 5px;
     width: 75px;
 }
-.explore-links:hover{
+
+.explore-links:hover {
     color: #c49a6c;
 }
 
-#footer-explore li{
+#footer-explore li {
     padding-bottom: 5px;
 }
 
-#footer-description h3{
+#footer-description h3 {
     padding-bottom: 20px;
     font-weight: 200;
     font-size: 17px;
 }
 
-#footer-description span{
+#footer-description span {
     font-style: italic;
     color: #c49a6c;
 }
@@ -343,7 +356,7 @@ footer{
 /* ------------------------------------------------------*/
 /* Media Querys*/
 @media (max-width: 1000px) {
-    * {
+    body {
         overflow-x: hidden;
     }
 
@@ -389,33 +402,56 @@ footer{
 
     #choose-box-container {
         padding: 15px;
-        margin: 20px
+        margin: 20px 0px 0px 50px;
     }
+
 }
 
 @media (max-width:720px) {
+
     /* Hero */
-    .hero h1, .hero span{
+    .hero h1,
+    .hero span {
         font-size: 50px;
     }
-    .hero h2{
+
+    .hero h2 {
         font-size: 45px;
     }
+
+    /* Footer */
+    footer {
+        flex-direction: column;
+    }
+
+    .footer {
+        max-width: 100%;
+        margin: 50px;
+    }
+
+    #footer-explore {
+        padding: 0;
+        margin-bottom: 0;
+    }
+
 }
 
 @media (max-width:600px) {
+
     /* Nav */
-    .nav-links li a{
+    .nav-links li a {
         font-size: 14px;
     }
 
     /* Hero */
-    .hero h1, .hero h2, .hero span{
+    .hero h1,
+    .hero h2,
+    .hero span {
         font-size: 35px;
     }
-    .hero p{
+
+    .hero p {
         font-size: 15px;
     }
 
 }
-
