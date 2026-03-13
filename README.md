@@ -27,22 +27,22 @@ for headings and Lato for body text, keeping the site readable and friendly.
 All images include alt text to meet accessibility guidelines. Semantic HTML 
 elements are used throughout to aid screen reader navigation.
 
-### Wireframes
+#### Wireframes
 **Desktop Wireframes**
 
-[Home Desktop Wireframe](assets/wireframes/home-desktop.png)
+📄 [Home](assets/wireframes/home-desktop.png)
 
-[Care Desktop Wireframe](assets/wireframes/care-desktop.png)
+📄 [Care](assets/wireframes/care-desktop.png)
 
-[History Desktop Wireframe](assets/wireframes/history-desktop.png) - Coming Soon
+📄 [History](assets/wireframes/history-desktop.png) - Coming Soon
 
 **Mobile Wireframes**
 
-[Home Mobile Wireframe](assets/wireframes/home-mobile.png)
+📄 [Home](assets/wireframes/home-mobile.png)
 
-[Care Mobile Wireframe](assets/wireframes/care-mobile.png)
+📄 [Care](assets/wireframes/care-mobile.png)
 
-[History Mobile Wireframe](assets/wireframes/history-mobile.png) - Coming Soon
+📄 [History](assets/wireframes/history-mobile.png) - Coming Soon
 
 ## Features
 #### Navigation Bar
