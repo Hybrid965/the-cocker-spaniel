@@ -18,12 +18,13 @@ body {
 
 /* ------------------------------------------------------*/
 /* Nav Bar */
-#nav-bar{
+#nav-bar {
     position: fixed;
     top: 0;
     z-index: 100;
     width: 100%;
 }
+
 .nav-links {
     font-family: 'Playfair Display', serif;
     list-style-type: none;
@@ -57,7 +58,8 @@ body {
 .nav-links li a:hover {
     color: #c49a6c;
 }
-.nav-links li a.nav-current{
+
+.nav-links li a.nav-current {
     color: #c49a6c;
 }
 
@@ -305,6 +307,7 @@ footer {
     background-color: #122c47;
     border-top: #c49a6c 4px solid;
     display: flex;
+    flex-direction: column;
     color: #faf6ef;
     letter-spacing: 2px;
     font-size: 14px;
@@ -315,6 +318,7 @@ footer {
     flex-basis: 100px;
     flex-grow: 1;
     max-width: 400px;
+    flex-direction: column;
 }
 
 #footer-explore {
@@ -354,7 +358,18 @@ footer {
     color: #c49a6c;
 }
 
+#copyright {
+    text-align: center;
+    padding: 15px;
+    border-top: 1px solid rgba(247, 247, 247, 0.2);
+    font-size: 12px;
+    color: rgba(250, 246, 239, 0.5);
+}
 
+#footer-content {
+    display: flex;
+    flex-direction: row;
+}
 
 
 
@@ -442,6 +457,9 @@ footer {
     #footer-explore {
         padding: 0;
         margin-bottom: 0;
+    }
+    #footer-content{
+        flex-direction: column;
     }
 
 }
