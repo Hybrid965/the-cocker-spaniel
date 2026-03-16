@@ -14,6 +14,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #faf6ef;
+    color: #faf6ef;
 }
 
 /* ------------------------------------------------------*/
@@ -61,4 +62,57 @@ body {
 
 .nav-links li a.nav-current {
     color: #c49a6c;
+}
+/* ------------------------------------------------------*/
+/* Hero */
+#mini-title{
+    font-size: 14px;
+    color: #faf6ef;
+    letter-spacing: 2px;
+}
+
+.hero {
+    width: 100%;
+    min-height: 600px;
+    max-height: 600px;
+    background-color: #122c47;
+    background: linear-gradient(to right, rgba(18, 44, 71, 0.82) 45%, rgba(18, 44, 71, 0.1) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    padding: 40px;
+    overflow-x: auto;
+
+}
+
+.hero h1{
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.hero h1 span{
+    font-style: italic;
+    color: #c49a6c;
+}
+
+#hero-paragraph{
+    letter-spacing: 1px;
+}
+
+#hero-links{
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #c49a6c;
+    width: 400px
+}
+
+.hero-navigation{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+a.hero-navigation{
+    padding-left: 15px;
 }
