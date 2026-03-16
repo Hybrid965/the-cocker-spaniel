@@ -165,6 +165,8 @@ a.hero-navigation {
     flex-direction: column;
     justify-content: center;
     min-height: 500px;
+    border-top: 2px solid #c49a6c;
+
 
 }
 
@@ -177,7 +179,8 @@ a.hero-navigation {
 #grooming {
     color: #122c47;
 }
-
+/* ------------------------------------------------------*/
+/* Cards & Tips */
 .grid {
     display: flex;
     justify-content: center;
@@ -236,11 +239,15 @@ a.hero-navigation {
     margin-bottom: 10px;
 }
 
-.tip-box p {
+.tip-content {
     color: #122c47;
     font-family: 'Playfair Display', serif;
     font-style: italic;
     font-size: 1.1rem;
     line-height: 1.6;
     margin: 0;
+}
+
+.tip-title{
+    font-style: normal;
 }
