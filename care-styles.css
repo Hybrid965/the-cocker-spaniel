@@ -179,6 +179,7 @@ a.hero-navigation {
 #grooming {
     color: #122c47;
 }
+
 /* ------------------------------------------------------*/
 /* Cards & Tips */
 .grid {
@@ -248,6 +249,30 @@ a.hero-navigation {
     margin: 0;
 }
 
-.tip-title{
+.tip-title {
     font-style: normal;
+}
+
+/* ------------------------------------------------------*/
+/* Table */
+table {
+    display: flex;
+    justify-content: center;
+    background-color: #faf6ef;
+}
+
+#table-heading {
+    border-radius: 5%;
+}
+
+td {
+    padding: 30px
+}
+
+tbody {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    background-color: white;
+    padding: 20px;
+    border-radius: 5%;
+    border: #c49a6c 1px solid;
 }
