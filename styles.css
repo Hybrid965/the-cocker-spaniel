@@ -7,6 +7,7 @@ html {
     margin: 0;
     padding: 0;
     font-family: 'Playfair Display', serif;
+    box-sizing: border-box;
 
 
 }
@@ -69,14 +70,14 @@ body {
 /* Hero Content */
 .hero {
     width: 100%;
-    min-height: 600px;
-    max-height: 600px;
+    min-height: 500px;
+    max-height: 500px;
     background-color: #122c47;
-    background: linear-gradient(to right, rgba(18, 44, 71, 0.82) 45%, rgba(18, 44, 71, 0.1) 100%); /* Credit W3Schools */
     display: flex;
     flex-direction: column;
     justify-content: center;
     color: white;
+    text-align: center;
 }
 
 .hero h1 {
@@ -434,13 +435,23 @@ footer {
 @media (max-width:720px) {
 
     /* Hero */
-    .hero h1,
-    .hero span {
-        font-size: 50px;
+    #hero {
+        padding: 20px 20px 20px 20px;
+        align-items: flex-start;
+        text-align: left;
+        max-height: none;
     }
 
-    .hero h2 {
-        font-size: 45px;
+    #hero h1, #hero h1 span, #hero h2, #hero h2 span {
+        font-size: 2.2rem;
+        margin-left: 0;
+        padding-left: 0;
+        width: 100%;
+        
+    }
+    #hero p{
+        margin-left: 0;
+        font-size: 1rem;
     }
 
     /* Footer */
