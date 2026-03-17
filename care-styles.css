@@ -151,6 +151,11 @@ body {
     font-size: 14px;
     font-weight: 100;
     letter-spacing: 2px;
+    text-decoration: none;
+    color: white;
+}
+.hero-navigation:hover{
+    color: #c49a6c;
 }
 
 a.hero-navigation {
