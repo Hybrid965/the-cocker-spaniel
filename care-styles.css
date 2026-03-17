@@ -39,10 +39,6 @@ body {
     margin: auto;
 }
 
-.blue {
-    color: #122c47;
-}
-
 .content {
     line-height: 1.6;
     color: #7a6a58;
@@ -109,7 +105,7 @@ body {
     min-height: 500px;
     max-height: 500px;
     background-color: #122c47;
-    background: linear-gradient(to right, rgba(18, 44, 71, 0.82) 45%, rgba(18, 44, 71, 0.1) 100%);
+    background: linear-gradient(to right, rgba(18, 44, 71, 0.82) 45%, rgba(18, 44, 71, 0.1) 100%); /* Credit W3Schools */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -154,7 +150,8 @@ body {
     text-decoration: none;
     color: white;
 }
-.hero-navigation:hover{
+
+.hero-navigation:hover {
     color: #c49a6c;
 }
 
@@ -163,7 +160,7 @@ a.hero-navigation {
 }
 
 /* ------------------------------------------------------*/
-/* Grooming Article */
+/* Article's */
 .article {
     background-color: #f9f7f2;
     color: black;
@@ -258,23 +255,33 @@ a.hero-navigation {
 /* ------------------------------------------------------*/
 /* Table */
 table {
-    display: flex;
-    justify-content: center;
-    background-color: #faf6ef;
+    margin: 40px auto;
+    border-collapse: collapse; /* Credit W3Schools */
+    background-color: white;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 2%;
+    overflow: hidden;
+    font-family: 'Lato', sans-serif;
 }
 
-#table-heading {
-    border-radius: 5%;
+#table-heading th {
+    padding: 20px;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
 }
 
 td {
-    padding: 30px
+    padding: 15px 40px;
+    border-bottom: 1px solid #f2e8d5;
+    color: #7a6a58;
 }
 
-tbody {
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
-    background-color: white;
-    padding: 20px;
-    border-radius: 5%;
-    border: #c49a6c 1px solid;
+tr:last-child td {
+    border-bottom: none;
 }
+
+tr:nth-child(even) {
+    background-color: #fcfaf7; /* Credit W3Schools */
+}
+/* ------------------------------------------------------*/
+/* Diet & Nutrition */
