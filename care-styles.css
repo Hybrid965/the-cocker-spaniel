@@ -142,10 +142,6 @@ main {
     width: 400px
 }
 
-#hero-img {
-    width: 50%;
-}
-
 .hero-navigation {
     text-transform: uppercase;
     font-size: 14px;
