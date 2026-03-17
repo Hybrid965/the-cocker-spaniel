@@ -1,5 +1,6 @@
 html {
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 * {
@@ -158,26 +159,22 @@ a.hero-navigation {
 
 /* ------------------------------------------------------*/
 /* Grooming Article */
-#grooming-article {
+.article {
     background-color: #f9f7f2;
     color: black;
     display: flex;
     flex-direction: column;
     justify-content: center;
     min-height: 500px;
-    border-top: 2px solid #c49a6c;
+    margin-top: 50px;
 
 
 }
 
-#grooming-article header {
+.article header {
     text-align: center;
     margin-top: 50px;
 
-}
-
-#grooming {
-    color: #122c47;
 }
 
 /* ------------------------------------------------------*/
