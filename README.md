@@ -131,7 +131,10 @@ All written content on this site was written by Will Burkert.
 #### Media
 All images used on this sourced via personal photo's
 #### Code
-No external code snippets or libraries were used in this project.
+Credits have been given in the source code were snippets have been taken from outside sources:
+Border collapse - https://www.w3schools.com/cssref/pr_border-collapse.php
+Nth child - https://www.w3schools.com/cssref/sel_nth-child.php
+Linear gradient - https://www.w3schools.com/css/css3_gradients.asp
 #### Fonts
 Fonts were sourced from [Google Fonts](https://fonts.google.com/).
 
