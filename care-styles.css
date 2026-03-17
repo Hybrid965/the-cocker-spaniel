@@ -41,7 +41,7 @@ body {
 
 .content {
     line-height: 1.6;
-    color: #7a6a58;
+    color: #122c47;
     letter-spacing: 1px;
 }
 
@@ -105,7 +105,8 @@ body {
     min-height: 500px;
     max-height: 500px;
     background-color: #122c47;
-    background: linear-gradient(to right, rgba(18, 44, 71, 0.82) 45%, rgba(18, 44, 71, 0.1) 100%); /* Credit W3Schools */
+    background: linear-gradient(to right, rgba(18, 44, 71, 0.82) 45%, rgba(18, 44, 71, 0.1) 100%);
+    /* Credit W3Schools */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -256,7 +257,8 @@ a.hero-navigation {
 /* Table */
 table {
     margin: 40px auto;
-    border-collapse: collapse; /* Credit W3Schools */
+    border-collapse: collapse;
+    /* Credit W3Schools */
     background-color: white;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
     border-radius: 2%;
@@ -281,7 +283,25 @@ tr:last-child td {
 }
 
 tr:nth-child(even) {
-    background-color: #fcfaf7; /* Credit W3Schools */
+    background-color: #fcfaf7;
+    /* Credit W3Schools */
+}
+
+/* ------------------------------------------------------*/
+/* Grooming */
+#grooming{
+    background-color: #faf6ef;
+}
+#grooming-image {
+    display: flex;
+    justify-content: center;
+}
+
+#grooming-image img {
+    border: 3px #c49a6c solid;
+    width: 550px;
+    height: 450px;
+
 }
 /* ------------------------------------------------------*/
 /* Diet & Nutrition */
