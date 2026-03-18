@@ -258,8 +258,7 @@ a.hero-navigation {
 /* Table */
 table {
     margin: 40px auto;
-    border-collapse: collapse;
-    /* Credit W3Schools */
+    border-collapse: collapse; /* Credit W3Schools */
     background-color: white;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
     border-radius: 2%;

@@ -121,9 +121,81 @@ a.hero-navigation {
     padding-left: 15px;
 }
 
+/* ------------------------------------------------------*/
+/* Origins */
+#origins {
+    background-color: #f2e8d5;
+}
 
+#origins-container {
+    display: flex;
+    flex-direction: row;
+    max-width: 950px;
+    margin: 0 auto;
 
+}
 
+#origins-content {
+    margin-top: 60px;
+    margin-right: 70px;
+}
+
+#origins-subheading {
+    padding-bottom: 20px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+#origins-heading {
+    padding-bottom: 20px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+.flex {
+    flex: 1 1 300px;
+
+}
+
+#origin-facts {
+    margin-top: 60px;
+    border-radius: 5%;
+    padding: 20px;
+    min-height: 400px;
+    margin-bottom: 50px;
+    background-color: #faf6ef;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.p-content {
+    letter-spacing: 2px;
+    font-family: "lato", sans-serif;
+    padding-bottom: 15px;
+    color:#8b4513 ;
+}
+
+.tb-heading {
+    padding: 15px;
+    font-family: "lato",sans-serif;
+    color: #122c47;
+}
+
+.tb-data{
+    font-family: "lato",sans-serif;
+    color: #8b4513;
+}
+
+thead th {
+    padding-bottom: 20px;
+}
+
+.tb-heading, .tb-data{
+    border-bottom: 1px black solid;
+}
+table{
+    border-collapse: collapse;
+}
 
 
 
