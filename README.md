@@ -23,26 +23,18 @@ The site uses a warm, earthy colour palette to reflect the natural personality
 of the breed. Deep navy (#122c47) is used for the navigation and headings to 
 provide strong contrast against lighter backgrounds. Playfair Display is used 
 for headings and Lato for body text, keeping the site readable and friendly.
+Deep navy (#122c47) is also used for headings, Brown (#8b4513) is used for sub headings and paragraphs use lighter brown (#7a6a58), 
+The only exeption for this is the history page due to the background being (#f2e8d5)
 
 All images include alt text to meet accessibility guidelines. Semantic HTML 
 elements are used throughout to aid screen reader navigation.
 
 #### Wireframes
-**Desktop Wireframes**
+📄 [Home](assets/wireframes/home.png)
 
-📄 [Home](assets/wireframes/home-desktop.png)
+📄 [Care](assets/wireframes/care.png)
 
-📄 [Care](assets/wireframes/care-desktop.png)
-
-📄 [History](assets/wireframes/history-desktop.png) - Coming Soon
-
-**Mobile Wireframes**
-
-📄 [Home](assets/wireframes/home-mobile.png)
-
-📄 [Care](assets/wireframes/care-mobile.png)
-
-📄 [History](assets/wireframes/history-mobile.png) - Coming Soon
+📄 [History](assets/wireframes/history.png)
 
 ## Features
 #### Navigation Bar
