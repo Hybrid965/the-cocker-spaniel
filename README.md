@@ -118,25 +118,27 @@ git clone https://github.com/Hybrid965/the-cocker-spaniel.git
 ```
 ## Credits
 
-#### Content
-###### Fav icon
+### Content
+#### Fav icon
 Artist - https://www.flaticon.com/authors/maxim-kulikov 
-###### History
+#### History page
 
 Gemini was used for history timeline and facts about the cockerspaniel breed, cited here - [History facts](docs\credits\history-gemini-facts.pdf)
 
 Wikipedia was also used for finding content on the origins of cockerspaniels -https://en.wikipedia.org/wiki/Cocker_Spaniel
 
-#### Media
+The kennel club quote was taking from the AKC website -  https://www.akc.org/dog-breeds/cocker-spaniel/
+
+### Media
 All images used on this sourced via personal photo's
-#### Code
+### Code
 Credits have been given in the source code were snippets have been taken from outside sources:
 
 Border collapse - https://www.w3schools.com/cssref/pr_border-collapse.php
 
 Nth child - https://www.w3schools.com/cssref/sel_nth-child.php
 
-#### Fonts
+### Fonts
 Fonts were sourced from [Google Fonts](https://fonts.google.com/).
 
 ---
