@@ -222,6 +222,7 @@ table{
     padding-top: 5px;
     font-size: 22px;
     font-weight: 600;
+    font-family: "Lato", sans-serif;
     
 }
 
@@ -236,6 +237,7 @@ table{
 
 .list-content{
     padding-bottom: 40px;
+    font-family: "Lato", sans-serif;
 }
 
 
