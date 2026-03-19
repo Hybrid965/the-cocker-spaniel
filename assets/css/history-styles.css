@@ -297,6 +297,75 @@ table {
     height: 64px;
 }
 
+/* ------------------------------------------------------*/
+/* Footer */
+footer {
+    background-color: #122c47;
+    border-top: #c49a6c 4px solid;
+    display: flex;
+    flex-direction: column;
+    color: #faf6ef;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+.footer {
+    margin: 50px 100px 50px 50px;
+    flex-basis: 100px;
+    flex-grow: 1;
+    max-width: 400px;
+    flex-direction: column;
+}
+
+#footer-explore {
+    padding-left: 50px
+}
+
+#footer-explore h3 {
+    font-size: 15px;
+    color: #c49a6c;
+    padding-bottom: 20px;
+}
+
+.explore-links {
+    color: #faf6ef;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    width: 75px;
+}
+
+.explore-links:hover {
+    color: #c49a6c;
+}
+
+#footer-explore li {
+    padding-bottom: 5px;
+}
+
+#footer-description h3 {
+    padding-bottom: 20px;
+    font-weight: 200;
+    font-size: 17px;
+}
+
+#footer-description span {
+    font-style: italic;
+    color: #c49a6c;
+}
+
+#copyright {
+    text-align: center;
+    padding: 15px;
+    border-top: 1px solid rgba(247, 247, 247, 0.2);
+    font-size: 12px;
+    color: rgba(250, 246, 239, 0.5);
+}
+
+#footer-content {
+    display: flex;
+    flex-direction: row;
+}
 
 
 
@@ -317,13 +386,14 @@ table {
     }
 }
 
-    /* Origins */
-    .breed-box{
-        min-height: auto;
-    }
-    p.box-content{
-        padding-bottom:40px ;
-    }
+/* Origins */
+.breed-box {
+    min-height: auto;
+}
+
+p.box-content {
+    padding-bottom: 40px;
+}
 
 
 
@@ -365,5 +435,24 @@ table {
         padding-left: 5px;
         font-size: 12px;
 
+    }
+
+    /* Footer */
+    footer {
+        flex-direction: column;
+    }
+
+    .footer {
+        max-width: 100%;
+        margin: 50px;
+    }
+
+    #footer-explore {
+        padding: 0;
+        margin-bottom: 0;
+    }
+
+    #footer-content {
+        flex-direction: column;
     }
 }
