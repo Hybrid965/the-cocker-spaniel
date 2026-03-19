@@ -119,6 +119,8 @@ git clone https://github.com/Hybrid965/the-cocker-spaniel.git
 ## Credits
 
 #### Content
+###### Fav icon
+Artist - https://www.flaticon.com/authors/maxim-kulikov 
 ###### History
 
 Gemini was used for history timeline and facts about the cockerspaniel breed, cited here - [History facts](assets\credits\gemini-history-facts.pdf)
