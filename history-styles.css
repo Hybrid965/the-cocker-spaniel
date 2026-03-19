@@ -127,7 +127,7 @@ a.hero-navigation {
     background-color: #f2e8d5;
 }
 
-#origins-container {
+.container-row {
     display: flex;
     flex-direction: row;
     max-width: 950px;
@@ -140,13 +140,13 @@ a.hero-navigation {
     margin-right: 70px;
 }
 
-#origins-subheading {
+.subheading {
     padding-bottom: 20px;
     font-size: 20px;
     text-decoration: underline;
 }
 
-#origins-heading {
+.heading {
     padding-bottom: 20px;
     font-size: 30px;
     letter-spacing: 2px;
@@ -198,12 +198,54 @@ table{
     border-collapse: collapse;
 }
 
+/* ------------------------------------------------------*/
+/* Timeline */
+#timeline{
+    margin: 60px 0px;
+    background-color:#faf6ef;
+    font-family: "Lato",sans-serif;
+    letter-spacing: 1px;
+}
+
+
+.container-column {
+    display: flex;
+    flex-direction: column;
+    max-width: 950px;
+    margin: 0 auto;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.list-sub-title{
+    padding-bottom: 15px;
+    padding-top: 5px;
+    font-size: 22px;
+    font-weight: 600;
+    
+}
+
+.list-title{
+    color: #8b4513;
+    font-size: 20px;
+    font-weight:400;
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+    
+}
+
+.list-content{
+    padding-bottom: 40px;
+}
+
+
+
 
 
 
 /* Media Queries */
 @media (max-width: 1000px) {
-    #origins-container {
+    .container-row, .container-column {
     flex-direction: column;
     margin: 0px 40px;
     }
