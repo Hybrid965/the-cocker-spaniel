@@ -130,7 +130,9 @@ Wikipedia was also used for finding content on the origins of cockerspaniels -ht
 The kennel club quote was taking from the AKC website -  https://www.akc.org/dog-breeds/cocker-spaniel/
 
 ### Media
-All images used on this sourced via personal photo's
+Images used on this sourced via dev's personal photo's
+
+Icons for the breed types section were created by [Maxim Kulikov](https://www.flaticon.com/authors/maxim-kulikov)
 ### Code
 Credits have been given in the source code were snippets have been taken from outside sources:
 

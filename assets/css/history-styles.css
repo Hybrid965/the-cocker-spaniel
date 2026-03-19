@@ -173,17 +173,17 @@ a.hero-navigation {
     letter-spacing: 2px;
     font-family: "lato", sans-serif;
     padding-bottom: 15px;
-    color:#8b4513 ;
+    color: #8b4513;
 }
 
 .tb-heading {
     padding: 15px;
-    font-family: "lato",sans-serif;
+    font-family: "lato", sans-serif;
     color: #122c47;
 }
 
-.tb-data{
-    font-family: "lato",sans-serif;
+.tb-data {
+    font-family: "lato", sans-serif;
     color: #8b4513;
 }
 
@@ -191,19 +191,21 @@ thead th {
     padding-bottom: 20px;
 }
 
-.tb-heading, .tb-data{
+.tb-heading,
+.tb-data {
     border-bottom: 1px black solid;
 }
-table{
+
+table {
     border-collapse: collapse;
 }
 
 /* ------------------------------------------------------*/
 /* Timeline */
-#timeline{
+#timeline {
     margin: 60px 0px;
-    background-color:#faf6ef;
-    font-family: "Lato",sans-serif;
+    background-color: #faf6ef;
+    font-family: "Lato", sans-serif;
     letter-spacing: 1px;
 }
 
@@ -217,44 +219,84 @@ table{
 
 }
 
-.list-sub-title{
+.list-sub-title {
     padding-bottom: 15px;
     padding-top: 5px;
     font-size: 22px;
     font-weight: 600;
     font-family: "Lato", sans-serif;
-    
+    color: #122c47;
+
 }
 
-.list-title{
+.list-title {
     color: #8b4513;
     font-size: 20px;
-    font-weight:400;
+    font-weight: 400;
     text-transform: uppercase;
     font-family: "Lato", sans-serif;
-    
+
 }
 
-.list-content{
+.list-content {
     padding-bottom: 40px;
     font-family: "Lato", sans-serif;
 }
+
 /* ------------------------------------------------------*/
-/* Timeline */
-#quote{
+/* AKC Quote */
+#quote {
     display: flex;
     font-style: italic;
     flex-direction: column;
     border: 1px solid #e0d4c0;
     padding: 30px 0px;
     margin-top: 40px;
-}   
+}
 
-.quote-text{
+.quote-text {
     text-align: center;
     padding: 15px;
     font-size: 18px;
 }
+
+/* ------------------------------------------------------*/
+/* Breeds */
+#breeds {
+    margin: 60px 0px;
+    background-color: #faf6ef;
+    font-family: "Lato", sans-serif;
+    letter-spacing: 1px;
+}
+
+.breed-box {
+    padding: 20px;
+    border-radius: 5%;
+    margin: 20px 40px 20px 0px;
+    min-height: 300px;
+    background-color: white;
+    border: 1px solid #e0d4c0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    font-family: "Lato", sans-serif;
+
+}
+
+.box-content {
+    padding-top: 15px;
+    font-family: "Lato", sans-serif;
+
+}
+
+.box-title {
+    color: #122c47;
+    font-size: 22px;
+}
+
+.breed-icon {
+    width: 64px;
+    height: 64px;
+}
+
 
 
 
@@ -262,15 +304,27 @@ table{
 
 /* Media Queries */
 @media (max-width: 1000px) {
-    .container-row, .container-column {
-    flex-direction: column;
-    margin: 0px 40px;
-    }
-    table{
-        width: auto;
+
+    /* Origins */
+    .container-row,
+    .container-column {
+        flex-direction: column;
+        margin: 0px 40px;
     }
 
+    table {
+        width: auto;
+    }
 }
+
+    /* Origins */
+    .breed-box{
+        min-height: auto;
+    }
+    p.box-content{
+        padding-bottom:40px ;
+    }
+
 
 
 @media (max-width: 720px) {
