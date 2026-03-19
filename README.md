@@ -30,11 +30,11 @@ All images include alt text to meet accessibility guidelines. Semantic HTML
 elements are used throughout to aid screen reader navigation.
 
 #### Wireframes
-📄 [Home](assets/wireframes/home.png)
+📄 [Home](docs/wireframes/home.png)
 
-📄 [Care](assets/wireframes/care.png)
+📄 [Care](docs/wireframes/care.png)
 
-📄 [History](assets/wireframes/history.png)
+📄 [History](docs/wireframes/history.png)
 
 ## Features
 #### Navigation Bar
@@ -123,7 +123,7 @@ git clone https://github.com/Hybrid965/the-cocker-spaniel.git
 Artist - https://www.flaticon.com/authors/maxim-kulikov 
 ###### History
 
-Gemini was used for history timeline and facts about the cockerspaniel breed, cited here - [History facts](assets\credits\gemini-history-facts.pdf)
+Gemini was used for history timeline and facts about the cockerspaniel breed, cited here - [History facts](docs\credits\history-gemini-facts.pdf)
 
 Wikipedia was also used for finding content on the origins of cockerspaniels -https://en.wikipedia.org/wiki/Cocker_Spaniel
 
