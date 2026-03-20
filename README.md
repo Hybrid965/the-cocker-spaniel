@@ -60,42 +60,83 @@ If you would like to see the features to be added in the future visit the Projec
 https://github.com/users/Hybrid965/projects/1/views/1
 
 ## Testing
-#### Functionality Testing
+#### HTML Validation
 
-| Test                                 | Expected Result                     | Pass/Fail |
-| ------------------------------------ | ----------------------------------- | --------- |
-| Clicking "Discover the Breed" button | Scrolls down to the article section | Pass      |
-| Clicking Home nav link               |                                     |           |
-| Clicking About nav link              |                                     |           |
-| Clicking Contact nav link            |                                     |           |
-| All external links open in new tab   |                                     |           |
+All three pages were tested using the [W3C Nu HTML Checker](https://validator.w3.org/).
+
+| Page         | Errors / Warnings                                      | Validated Screenshot                                         |
+| ------------ | ------------------------------------------------------ | ------------------------------------------------------------ |
+| index.html   | No errors                                              | [Index validated](docs/testing/index.html-validated.png)     |
+| care.html    | No errors / warnings                                   | [Care validated](docs/testing/care.html-validated.png)       |
+| history.html | [History errors](docs/testing/history.html-errors.png) | [History validated](docs/testing/history.html-validated.png) |
+
+
+During development, the history page returned the following errors which were subsequently fixed:
+
+- **Article lacks heading** — resolved by moving the `<header>` element directly inside `<article id="timeline">`
+- **Section lacks heading** — `<section id="quote">` changed to a `<div>` as no heading was needed
+- **Missing `alt` attributes** — added `alt` text to all three breed images
+- **Unclosed `<div>` element** — missing closing tag added in the breeds section
+
+#### CSS Validation
+
+CSS was tested using the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
+
+| File         | Errors / Warnings                                   | Validated Screenshot                                  |
+| ------------ | --------------------------------------------------- | ----------------------------------------------------- |
+| index.html   | No errors                                           | [Index Css](docs/testing/index-css-validated.png)     |
+| care.html    | [Care Css Errors](docs/testing/care-css-errors.png) | [Care Css](docs/testing/care-css-validated.png)       |
+| history.html | No errors                                           | [History Css](docs/testing/history-css-validated.png) |
+All stylesheets validated as **CSS Level 3 + SVG**. 
+
+During development, `care-styles.css` returned the following warning which was subsequently fixed: 
+- **Same color for `background-color` and `color` on `body` (line 18)** — duplicate colour value removed
+
+#### Functional Testing
+
+| Test                                   | Expected Result                       | Pass/Fail |
+| -------------------------------------- | ------------------------------------- | --------- |
+| Clicking logo in navbar                | Navigates to index.html               |           |
+| Clicking Home nav link                 | Navigates to index.html               | Pass      |
+| Clicking Care nav link                 | Navigates to care.html                | Pass      |
+| Clicking History nav link              | Navigates to history.html             | Pass      |
+| Clicking Origins link in history hero  | Smooth scrolls to Origins section     | Pass      |
+| Clicking Timeline link in history hero | Smooth scrolls to Timeline section    | Pass      |
+| Clicking Breeds link in history hero   | Smooth scrolls to Breeds section      | Pass      |
+| Clicking Grooming link in care hero    | Smooth scrolls to Grooming section    | Pass      |
+| Clicking Nutrition link in care hero   | Smooth scrolls to Nutrition section   | Pass      |
+| Clicking Exercise link in care hero    | Smooth scrolls to Exercise section    | Pass      |
+| Footer Home link                       | Navigates to index.html               | Pass      |
+| Footer Care link                       | Navigates to care.html                | Pass      |
+| Footer History link                    | Smooth scrolls to top of history page | Pass      |
+| Active nav link highlighted            | Current page link styled differently  | Pass      |
+
 #### Responsiveness Testing
-| Device/Screen Size | Navigation | Layout | Images | Pass/Fail |
-| ------------------ | ---------- | ------ | ------ | --------- |
-| Desktop (1200px+)  |            |        |        |           |
-| Tablet (768px)     |            |        |        |           |
-| Mobile (375px)     |            |        |        |           |
-#### Validation Testing
-| File       | Validator        | Result                |
-| ---------- | ---------------- | --------------------- |
-| index.html | W3C Validator    | No Errors or Warnings |
-| style.css  | Jigsaw Validator | No Errors or Warnings |
+
+| Device  | Navigation                               | Layout                                  | Images                      | Pass/Fail |
+| ------- | ---------------------------------------- | --------------------------------------- | --------------------------- | --------- |
+| Desktop | Full navbar visible, all links displayed | Two-column layouts display side by side | Images display at full size | Pass      |
+| Tablet  | Full navbar visible, all links displayed | Columns stack vertically                | Images scale correctly      | Pass      |
+| Mobile  | Navbar stacks or collapses correctly     | Single column layout, no overflow       | Images scale to full width  | Pass      |
 
 #### Browser Testing
-| Browser | Pass/Fail |
-| ------- | --------- |
-| Chrome  |           |
-| Firefox |           |
-| Edge    |           |
-#### Current and Solved Bugs  
 
-| Bug                                                                                                                                     | Solved? | When     | Commit Code |
-| --------------------------------------------------------------------------------------------------------------------------------------- | ------- | -------- | ----------- |
-| `why choose section` - margin on why choose box causing overflowing on mobile                                                           | Yes     | 10/03/26 | 11230b6     |
-| `why choose section` - Text out of alignment on mobile the headings and boxes are out of alignment compared to the rest of the document | Yes     | 10/03    | 11230b6     |
-| `Article section` - Fix picture from shrinking text when screen size reduces                                                            | Yes     | 09/03/26 | 38c5bdb     |
-| `Article Section` - Picture isn't displaying correctly, should be at the bottom of the article when screen size reduces below 1000px    | Yes     | 09/03/26 | c05a1fb     |
-| `Hero Section` - H1 is overflowing when screenwidth is below 1000px                                                                     | Yes     | 13/03/26 | a33144c     |
+| Browser | Layout | Navigation | Images | Pass/Fail |
+|---------|--------|------------|--------|-----------|
+| Chrome | Displays correctly | All links work | All images load | Pass |
+| Firefox | Displays correctly | All links work | All images load | Pass |
+| Edge | Displays correctly | All links work | All images load | Pass |
+
+#### Current and Solved Bugs
+
+| Bug                                                                  | Solved? | How was it  Solved                                                                                                                          | Date     | Commit  |
+| -------------------------------------------------------------------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------ | -------- | ------- |
+| `Why Choose section` — margin on box causing overflow on mobile      | Yes     | Replaced margin/padding on `.margin` and `#choose-box-container` with smaller values in the 1000px media query                             | 10/03/26 | 11230b6 |
+| `Why Choose section` — headings and boxes out of alignment on mobile | Yes     | Removed `flex-grow: 3` from `.choose-box` and applied padding and margin to `.margin` and `#choose-box-container`in the 1000px media query | 10/03/26 | 11230b6 |
+| `Article section` — image shrinking text when screen size reduces    | Yes     | Set `width: 50%` and `height: auto` on the image inside the 1000px media query                                                             | 09/03/26 | 38c5bdb |
+| `Article section` — image not displaying at bottom below 1000px      | Yes     | Changed `order: -1` to `order: 1` on the image inside the 1000px media query                                                               | 09/03/26 | c05a1fb |
+| `Hero section` — H1 overflowing below 1000px screen width            | Yes     | Added two media queries (720px and 600px) to reduce the hero heading font sizes                                                            | 13/03/26 | a33144c |
+
 ## Deployment
 #### How was this site deployed?
 This site was deployed to GitHub Pages using the following steps:
