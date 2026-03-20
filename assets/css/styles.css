@@ -140,10 +140,6 @@ span.hero {
 
 /* ------------------------------------------------------*/
 /* Mini hero boxes */
-.hidden {
-    display: none;
-}
-
 #mini-hero {
     display: flex;
 
@@ -199,7 +195,7 @@ span.hero {
     margin-bottom: 20px;
 }
 
-#spaniel-article section {
+#spaniel-article-container {
     display: flex;
     gap: 50px;
     align-items: center;
@@ -207,7 +203,7 @@ span.hero {
 
 }
 
-#spaniel-article section {
+#spaniel-article-container {
     flex: 1;
 }
 
