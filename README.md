@@ -87,7 +87,7 @@ CSS was tested using the [W3C CSS Validator](https://jigsaw.w3.org/css-validator
 | index.html   | No errors                                           | [Index Css](docs/testing/index-css-validated.png)     |
 | care.html    | [Care Css Errors](docs/testing/care-css-errors.png) | [Care Css](docs/testing/care-css-validated.png)       |
 | history.html | No errors                                           | [History Css](docs/testing/history-css-validated.png) |
-All stylesheets validated as **CSS Level 3 + SVG**. 
+
 
 During development, `care-styles.css` returned the following warning which was subsequently fixed: 
 - **Same color for `background-color` and `color` on `body` (line 18)** — duplicate colour value removed
@@ -129,14 +129,14 @@ During development, `care-styles.css` returned the following warning which was s
 
 #### Current and Solved Bugs
 
-| Bug                                                                                               | Solved? | How was it Solved                                                                                                                          | Date       | Commit  |
-| ------------------------------------------------------------------------------------------------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | ------- |
-| `Why Choose section` — margin on box causing overflow on mobile                                   | Yes     | Replaced margin/padding on `.margin` and `#choose-box-container` with smaller values in the 1000px media query                             | 10/03/26   | 11230b6 |
-| `Why Choose section` — headings and boxes out of alignment on mobile                              | Yes     | Removed `flex-grow: 3` from `.choose-box` and applied padding and margin to `.margin` and `#choose-box-container`in the 1000px media query | 10/03/26   | 11230b6 |
-| `Article section` — image shrinking text when screen size reduces                                 | Yes     | Set `width: 50%` and `height: auto` on the image inside the 1000px media query                                                             | 09/03/26   | 38c5bdb |
-| `Article section` — image not displaying at bottom below 1000px                                   | Yes     | Changed `order: -1` to `order: 1` on the image inside the 1000px media query                                                               | 09/03/26   | c05a1fb |
-| `Hero section` — H1 overflowing below 1000px screen width                                         | Yes     | Added two media queries (720px and 600px) to reduce the hero heading font sizes                                                            | 13/03/26   | a33144c |
-| `Mini Hero section` - after removing .hidden css style h2 has appeared - [H2 error](docs/testing/h2-error.png) |         |                                                                                                                                            | 20/03/2026 |         |                                                          | 13/03/26 | a33144c |
+| Bug                                                                                             | Solved? | How was it Solved                                                                                                                          | Date       | Commit  |
+| ----------------------------------------------------------------------------------------------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | ------- |
+| `Why Choose section` — margin on box causing overflow on mobile                                 | Yes     | Replaced margin/padding on `.margin` and `#choose-box-container` with smaller values in the 1000px media query                             | 10/03/26   | 11230b6 |
+| `Why Choose section` — headings and boxes out of alignment on mobile                            | Yes     | Removed `flex-grow: 3` from `.choose-box` and applied padding and margin to `.margin` and `#choose-box-container`in the 1000px media query | 10/03/26   | 11230b6 |
+| `Article section` — image shrinking text when screen size reduces                               | Yes     | Set `width: 50%` and `height: auto` on the image inside the 1000px media query                                                             | 09/03/26   | 38c5bdb |
+| `Article section` — image not displaying at bottom below 1000px                                 | Yes     | Changed `order: -1` to `order: 1` on the image inside the 1000px media query                                                               | 09/03/26   | c05a1fb |
+| `Hero section` — H1 overflowing below 1000px screen width                                       | Yes     | Added two media queries (720px and 600px) to reduce the hero heading font sizes                                                            | 13/03/26   | a33144c |
+| `Mini Hero section` - after removing .hidden css style h2 has appeared-[H2 error](h2-error.png) | Yes     | Heading was removed as was no longer needed                                                                                                | 20/03/2026 | d39dc17 |
 
 ## Deployment
 #### How was this site deployed?
