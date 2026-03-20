@@ -193,7 +193,7 @@ During development, `care-styles.css` returned the following warning which was s
 | `Article section` — image shrinking text when screen size reduces | Yes | Set `width: 50%` and `height: auto` on the image inside the 1000px media query | 09/03/26 | 38c5bdb |
 | `Article section` — image not displaying at bottom below 1000px | Yes | Changed `order: -1` to `order: 1` on the image inside the 1000px media query | 09/03/26 | c05a1fb |
 | `Hero section` — H1 overflowing below 1000px screen width | Yes | Added two media queries (720px and 600px) to reduce the hero heading font sizes | 13/03/26 | a33144c |
-| `Mini Hero section` — after removing .hidden css style h2 has appeared — [H2 error](h2-error.png) | Yes | Heading was removed as it was no longer needed | 20/03/2026 | d39dc17 |
+| `Mini Hero section` — after removing .hidden css style h2 has appeared — [H2 error](docs/testing/h2-error.png) | Yes | Heading was removed as it was no longer needed | 20/03/2026 | d39dc17 |
 
 ---
 
