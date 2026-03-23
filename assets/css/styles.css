@@ -25,24 +25,26 @@ body {
     top: 0;
     z-index: 100;
     width: 100%;
+    background-color: #122c47;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    border-bottom: 1px solid rgba(247, 247, 247, 0.37);
 }
 
 .nav-links {
     font-family: 'Playfair Display', serif;
     list-style-type: none;
     display: flex;
-    justify-content: flex-end;
-    background-color: #122c47;
-    padding: 20px;
-    border-bottom: 1px solid rgba(247, 247, 247, 0.37);
+    padding: 20px 0;
 }
 
 #logo {
-    display: flex;
-    justify-content: flex-start;
-    margin-right: auto;
+    text-decoration: none;
     color: white;
     font-size: 18px;
+    font-weight: 100;
 }
 
 #logo span {
@@ -367,13 +369,6 @@ footer {
     flex-direction: row;
 }
 
-
-
-
-
-
-
-
 /* ------------------------------------------------------*/
 /* Media Querys*/
 @media (max-width: 1000px) {
@@ -438,14 +433,18 @@ footer {
         max-height: none;
     }
 
-    #hero h1, #hero h1 span, #hero h2, #hero h2 span {
+    #hero h1,
+    #hero h1 span,
+    #hero h2,
+    #hero h2 span {
         font-size: 2.2rem;
         margin-left: 0;
         padding-left: 0;
         width: 100%;
-        
+
     }
-    #hero p{
+
+    #hero p {
         margin-left: 0;
         font-size: 1rem;
     }
@@ -464,7 +463,8 @@ footer {
         padding: 0;
         margin-bottom: 0;
     }
-    #footer-content{
+
+    #footer-content {
         flex-direction: column;
     }
 

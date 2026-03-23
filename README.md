@@ -9,16 +9,16 @@ The goal is that a new visitor can arrive at the site and within minutes have a 
 
 ## User Stories
 
-#### As a prospective owner:
+### As a prospective owner:
 - As a prospective dog owner, I want to quickly understand the Cocker Spaniel's personality so that I can decide if the breed suits my lifestyle.
 - As a prospective owner, I want to see key facts at a glance so that I don't have to read lengthy text to get basic information.
 - As a prospective owner, I want to understand the grooming commitment so that I can decide if I have the time and budget for the breed.
 
-#### As a parent/family:
+### As a parent/family:
 - As a parent, I want to know if Cocker Spaniels are good with children so that I can feel confident bringing one into my home.
 - As a family owner, I want to understand the breed's energy levels so that I can plan appropriate exercise and activities.
 
-#### As a first-time dog owner:
+### As a first-time dog owner:
 - As a first-time dog owner, I want clear and friendly information so that I don't feel overwhelmed by technical or medical jargon.
 - As a first-time owner, I want to understand how trainable the breed is so that I know what to expect when bringing a puppy home.
 
@@ -44,7 +44,7 @@ All images include descriptive alt text. Semantic HTML elements are used through
 
 📄 [History](docs/wireframes/history.png)
 
-### Old wireframes
+### Old Wireframes
 
 📄 [Care Desktop](docs/wireframes/care-old.png)
 
@@ -55,60 +55,58 @@ The Home and History pages ended up very close to the original wireframes — th
 
 ## Features
 
-## Across All Pages
+### Across All Pages
 
-### Navigation Bar
+#### Navigation Bar
 A fixed navigation bar sits at the top of every page with links to Home, Care and History. The active page link is highlighted so users always know where they are. The navbar is fully responsive and stacks cleanly on smaller screens.
 
-### Hero Sections
+#### Hero Sections
 Each page opens with a full-width hero featuring a bold headline and tagline. The Care and History heroes include anchor links — Grooming, Nutrition and Exercise on Care; Origins, Timeline and Breeds on History — letting users jump straight to the section they need.
 
-### Fully Responsive Design
+#### Fully Responsive Design
 All three pages adapt across desktop, tablet and mobile screen sizes using CSS media queries. Multi-column layouts stack vertically on smaller screens and images scale proportionally throughout.
 
-### Footer
+#### Footer
 A consistent footer across all three pages includes navigation links and a short brand description, giving every page a clear, finished feel.
 
-## Home Page
+### Home Page
 
-### Quick Facts Bar
+#### Quick Facts Bar
 Four key breed stats — Size, Life Span, Energy Level and Temperament — give users an instant breed overview without having to read the full article.
 
-### Breed Article
+#### Breed Article
 A written section covering why Cocker Spaniels make great pets, accompanied by a real photograph of a Cocker Spaniel.
 
-### Four Reasons Section
+#### Four Reasons Section
 A card-based section using emoji icons to highlight four characteristics of the breed, designed to give prospective owners an honest picture of what ownership looks like.
 
-## Care Page
+### Care Page
 
-### Grooming Cards
+#### Grooming Cards
 Three cards summarising the key grooming commitments, giving prospective owners an instant understanding of what the breed's grooming requirements are.
 
-### Feeding Guide
+#### Feeding Guide
 A structured table breaking down recommended feeding portions from puppy through to senior.
 
-### Pro Tips
+#### Pro Tips
 Highlighted pro tip boxes appear throughout the Care page to give important advice, visually distinct from the main content so they are easy to spot.
 
-### Exercise Cards
+#### Exercise Cards
 Four cards covering the key types of exercise a Cocker Spaniel needs, paired with an image of an exercising Cocker Spaniel.
 
-## History Page
+### History Page
 
-### Origins Section
+#### Origins Section
 An introductory written section covering the breed's roots and early history, accompanied by a quick facts table summarising key dates.
 
-### Chronological Timeline
+#### Chronological Timeline
 The breed's history presented as a vertical timeline — easy to follow without overwhelming the reader.
 
-### AKC Pull Quote
+#### AKC Pull Quote
 A quote from the American Kennel Club sits between the timeline and breed types sections, adding a natural break between content.
 
-### Breed Comparison Section
+#### Breed Comparison Section
 A side-by-side comparison of the English, American and Working Cocker Spaniel, helping users understand the differences between the three breed types at a glance.
-
-
 
 ## Current Development
 If you would like to see the features to be added in the future visit the Project board:
