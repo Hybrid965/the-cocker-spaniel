@@ -168,19 +168,19 @@ During development, `care-styles.css` returned the following warning which was s
 
 ### Responsiveness Testing
 
-| Device  | Navigation                               | Layout                                  | Images                      | Pass/Fail |
-| ------- | ---------------------------------------- | --------------------------------------- | --------------------------- | --------- |
-| Desktop | Full navbar visible, all links displayed | Two-column layouts display side by side | Images display at full size | Pass      |
-| Tablet  | Full navbar visible, all links displayed | Columns stack vertically                | Images scale correctly      | Pass      |
-| Mobile  | Navbar stacks or collapses correctly     | Single column layout, no overflow       | Images scale to full width  | Pass      |
+| Device  | Navigation                               | Images                      | Pass/Fail                   | Evidence
+| ------- | ---------------------------------------- | ----------------------------| --------------------------- | --------- 
+| Desktop | Full navbar visible, all links displayed | Images display at full size | Pass                        |[Desktop](docs/testing/desktop-test.png)
+| Tablet  | Full navbar visible, all links displayed | Images scale correctly      | Pass                        |[Tablet](docs/testing/tablet-test.png)
+| Mobile  | Navbar stacks correctly                  | Images scale to full width  | Pass                        |[Mobile](docs/testing/mobile-test.png)
 
 ### Browser Testing
 
-| Browser | Layout             | Navigation     | Images          | Pass/Fail |
-| ------- | ------------------ | -------------- | --------------- | --------- |
-| Chrome  | Displays correctly | All links work | All images load | Pass      |
-| Firefox | Displays correctly | All links work | All images load | Pass      |
-| Edge    | Displays correctly | All links work | All images load | Pass      |
+| Browser | Layout             | Navigation     | Images          | Pass/Fail | Evidence
+| ------- | ------------------ | -------------- | --------------- | --------- |-----------
+| Chrome  | Displays correctly | All links work | All images load | Pass      |[Chrome](docs/testing/desktop-browser-test-chrome.png)
+| Edge    | Displays correctly | All links work | All images load | Pass      |[Edge](docs/testing/desktop-browser-test-edge.png)
+| Firefox | Displays correctly | All links work | All images load | Pass      |[Firefox](docs/testing/desktop-browser-test-firefox.png)
 
 ### Current and Solved Bugs
 
@@ -192,6 +192,7 @@ During development, `care-styles.css` returned the following warning which was s
 | `Article section` — image not displaying at bottom below 1000px | Yes | Changed `order: -1` to `order: 1` on the image inside the 1000px media query | 09/03/26 | c05a1fb |
 | `Hero section` — H1 overflowing below 1000px screen width | Yes | Added two media queries (720px and 600px) to reduce the hero heading font sizes | 13/03/26 | a33144c |
 | `Mini Hero section` — after removing .hidden css style h2 has appeared — [H2 error](docs/testing/h2-error.png) | Yes | Heading was removed as it was no longer needed | 20/03/2026 | d39dc17 |
+| `Article section` — image not stacking at bottom on mobile | Yes | Updated `#spaniel-article-container` to flex-direction: column and used order: 2 on image| 23/03/26|
 
 ---
 

@@ -218,10 +218,6 @@ span.hero {
 
 }
 
-.offset-text {
-    display: none;
-}
-
 /* ------------------------------------------------------*/
 /* Why Choose Section*/
 #why-choose-container {
@@ -382,13 +378,13 @@ footer {
     }
 
     /* Article Section */
-    #spaniel-article section {
+    #spaniel-article-container {
         flex-direction: column;
-        gap: 50px;
+        gap: 30px;
+        text-align: center;
     }
 
     #spaniel-article {
-        width: 100%;
         margin: 20px 0;
         padding: 15px
     }
@@ -403,12 +399,14 @@ footer {
     }
 
     #spaniel-article img {
-        width: 50%;
+        width: 100%;
         height: auto;
-        order: 1;
+        max-width: 400px;
+        order: 2;
         object-fit: cover;
-        margin: auto;
+        margin: 0 auto;
     }
+
 
     /* Why Choose Section */
     .margin {
