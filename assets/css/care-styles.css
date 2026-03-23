@@ -167,7 +167,6 @@ a.hero-navigation {
     flex-direction: column;
     justify-content: center;
     min-height: 500px;
-    margin-top: 50px;
 
 
 }
@@ -309,7 +308,7 @@ tr:nth-child(even) {
 #exercise {
     background-color: #faf6ef;
     color: #122c47;
-    padding: 60px 40px;
+    padding: 0px 40px 40px 40px;
 }
 
 .exercise-header {
@@ -364,14 +363,12 @@ tr:nth-child(even) {
 }
 
 #exercise-image {
-    flex: 1;
-}
-
-#exercise-placeholder {
     width: 100%;
-    height: 500px;
+    height: 650px;
     background-color: #f2e8d5;
     border-radius: 8px;
+    object-fit: cover;
+    border: 3px solid #c49a6c;
 }
 
 /* ------------------------------------------------------*/
@@ -447,7 +444,12 @@ footer {
 
 
 /* Media Querys*/
-@media (max-width: 1000px) {}
+@media (max-width: 1200px) {
+    #exercise-inner{
+        flex-direction: column;
+
+    }
+}
 
 @media (max-width: 720px) {
 
