@@ -182,6 +182,14 @@ During development, `care-styles.css` returned the following warning which was s
 | Edge    | Displays correctly | All links work | All images load | Pass      |[Edge](docs/testing/desktop-browser-test-edge.png)
 | Firefox | Displays correctly | All links work | All images load | Pass      |[Firefox](docs/testing/desktop-browser-test-firefox.png)
 
+### User Story Validation
+
+|User Story | Evidence |
+|-----------|----------|
+|"As a prospective owner, I want to understand the grooming commitment| [Grooming Section](docs/testing/grooming-section.png)
+|"As a prospective owner, I want to see key facts at a glance| [Quick Facts Bar](docs/testing/quick-facts-bar.png)
+|"As a family owner, I want to understand the breed's energy levels so that I can plan appropriate exercise"| [Exercise Section](docs/testing/exercise-section.png)
+
 ### Current and Solved Bugs
 
 | Bug | Solved? | How was it Solved | Date | Commit |
@@ -192,7 +200,7 @@ During development, `care-styles.css` returned the following warning which was s
 | `Article section` — image not displaying at bottom below 1000px | Yes | Changed `order: -1` to `order: 1` on the image inside the 1000px media query | 09/03/26 | c05a1fb |
 | `Hero section` — H1 overflowing below 1000px screen width | Yes | Added two media queries (720px and 600px) to reduce the hero heading font sizes | 13/03/26 | a33144c |
 | `Mini Hero section` — after removing .hidden css style h2 has appeared — [H2 error](docs/testing/h2-error.png) | Yes | Heading was removed as it was no longer needed | 20/03/2026 | d39dc17 |
-| `Article section` — image not stacking at bottom on mobile | Yes | Updated `#spaniel-article-container` to flex-direction: column and used order: 2 on image| 23/03/26|
+| `Article section` — image not stacking at bottom on mobile | Yes | Updated `#spaniel-article-container` to flex-direction: column and used order: 2 on image| 23/03/26|3865flf
 
 ---
 
