@@ -150,11 +150,14 @@ main {
     color: white;
 }
 
-.hero-navigation:hover {
+a.hero-navigation:hover {
     color: #c49a6c;
 }
 
 a.hero-navigation {
+    padding-left: 15px;
+}
+span.hero-navigation {
     padding-left: 15px;
 }
 
@@ -482,11 +485,11 @@ footer {
         display: flex;
         flex-wrap: wrap;
         justify-content: flex-start;
-        gap: 10px;
+        gap: 0px;
     }
 
     a.hero-navigation {
-        padding-left: 5px;
+        padding-left: 15px;
         font-size: 12px;
 
     }
