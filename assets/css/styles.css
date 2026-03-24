@@ -82,7 +82,7 @@ body {
     text-align: center;
 }
 
-.hero h1 {
+#title {
     padding-bottom: 15px;
     font-size: 60px;
     letter-spacing: 2px;
@@ -90,7 +90,7 @@ body {
     font-weight: 500;
 }
 
-span.hero {
+#title span {
     font-style: italic;
     color: #c49a6c;
 }
@@ -183,7 +183,7 @@ span.hero {
 
 }
 
-#spaniel-article h3 {
+#spaniel-article h2 {
     font-size: 40px;
     font-weight: 700;
     padding-bottom: 50px;
@@ -226,7 +226,7 @@ span.hero {
 
 }
 
-#why-choose-container h4 {
+#why-choose-container p {
     font-size: 14px;
     letter-spacing: 2px;
     color: #8b4513;

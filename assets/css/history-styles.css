@@ -70,6 +70,9 @@ body {
 
 /* ------------------------------------------------------*/
 /* Hero */
+.hidden{
+    display: none;
+}
 
 .hero {
     width: 100%;
@@ -86,12 +89,13 @@ body {
 
 }
 
-.hero h1 {
+.hero h2 {
     font-size: 60px;
     font-weight: 400;
+    
 }
 
-.hero h1 span {
+.hero h2 span {
     font-style: italic;
     color: #c49a6c;
 }
