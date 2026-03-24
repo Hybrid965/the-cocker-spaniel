@@ -95,7 +95,7 @@ body {
     color: #c49a6c;
 }
 
-.hero h2 {
+.hero h1 {
     padding-bottom: 5px;
     font-size: 60px;
     margin-left: 20px;
@@ -271,7 +271,7 @@ body {
 
 .choose-box-title {
     font-weight: 600;
-    color: #122c47;
+    color: #122c47 !important;
     padding-bottom: 10px;
     letter-spacing: 1px;
     padding-top: 15px;
