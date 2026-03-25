@@ -132,12 +132,12 @@ main {
 
 }
 
-.hero h2 {
+.hero h1 {
     font-size: 60px;
     font-weight: 400;
 }
 
-.hero h2 span {
+.hero h1 span {
     font-style: italic;
     color: #c49a6c;
 }
@@ -186,7 +186,7 @@ span.hero-navigation {
 
 }
 
-.article header {
+.heading {
     text-align: center;
     margin-top: 50px;
 
