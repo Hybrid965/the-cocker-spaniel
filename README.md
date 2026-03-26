@@ -265,7 +265,7 @@ Border collapse — https://www.w3schools.com/cssref/pr_border-collapse.php
 
 Nth child — https://www.w3schools.com/cssref/sel_nth-child.php
 
-Skip Link - https://www.w3schools.com/accessibility/accessibility_skip_links.php
+Skip Link — https://www.w3schools.com/accessibility/accessibility_skip_links.php
 
 ### Fonts
 Fonts were sourced from [Google Fonts](https://fonts.google.com/).
