@@ -186,9 +186,13 @@ During development, `care-styles.css` returned the following warning which was s
 
 |User Story | Evidence |
 |-----------|----------|
-|"As a prospective owner, I want to understand the grooming commitment| [Grooming Section](docs/testing/grooming-section.png)
-|"As a prospective owner, I want to see key facts at a glance| [Quick Facts Bar](docs/testing/quick-facts-bar.png)
-|"As a family owner, I want to understand the breed's energy levels so that I can plan appropriate exercise"| [Exercise Section](docs/testing/exercise-section.png)
+|"As a prospective owner, I want to understand the grooming commitment| [Grooming Section](docs/story-validation/grooming-section.png)
+|"As a prospective owner, I want to see key facts at a glance| [Quick Facts Bar](docs/story-validation/quick-facts-bar.png)
+|"As a family owner, I want to understand the breed's energy levels so that I can plan appropriate exercise"| [Exercise Section](docs/story-validation/exercise-section.png)
+|"As a prospective dog owner, I want to quickly understand the Cocker Spaniel's personality"| [Quick Facts Bar](docs/story-validation/quick-facts-bar.png)
+|"As a parent, I want to know if Cocker Spaniels are good with children"| [Home Article](docs/story-validation/index-article.png)
+|"As a first-time dog owner, I want clear and friendly information| [Four Reasons](docs/story-validation/four-reasons.png)
+|"As a first-time owner, I want to understand how trainable the breed is| [Home Article](docs/story-validation/index-article.png)
 
 ### Current and Solved Bugs
 
