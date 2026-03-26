@@ -479,13 +479,6 @@ footer {
 
 @media (max-width: 720px) {
 
-    /* Nav */
-    .nav-links {
-        padding: 15px 10px;
-        justify-content: space-between;
-        font-size: 14px;
-    }
-
     /* Hero */
     #hero {
         padding: 80px 20px 40px 20px;
@@ -554,4 +547,12 @@ footer {
 
 
 
+}
+
+@media (max-width:600px) {
+
+    /* Nav */
+    .nav-links li a {
+        font-size: 14px;
+    }
 }

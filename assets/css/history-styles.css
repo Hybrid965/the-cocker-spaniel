@@ -480,3 +480,10 @@ p.box-content {
         flex-direction: column;
     }
 }
+@media (max-width:600px) {
+
+    /* Nav */
+    .nav-links li a {
+        font-size: 14px;
+    }
+}
