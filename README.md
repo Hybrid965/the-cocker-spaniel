@@ -112,8 +112,6 @@ A side-by-side comparison of the English, American and Working Cocker Spaniel, h
 If you would like to see the features to be added in the future visit the Project board:
 https://github.com/users/Hybrid965/projects/1/views/1
 
----
-
 ## Testing
 
 ### HTML Validation
@@ -206,7 +204,16 @@ During development, `care-styles.css` returned the following warning which was s
 | `Mini Hero section` — after removing .hidden css style h2 has appeared — [H2 error](docs/testing/h2-error.png) | Yes | Heading was removed as it was no longer needed | 20/03/2026 | d39dc17 |
 | `Article section` — image not stacking at bottom on mobile | Yes | Updated `#spaniel-article-container` to flex-direction: column and used order: 2 on image| 23/03/26|3865flf
 
----
+## Future Development
+
+### Dynamic "Find a Rescue" Map
+Using an API integration such as Google Maps, I will add a feature allowing users to locate Cocker Spaniel rescue centres and clubs across the UK.
+
+### Community Gallery
+I intend to build a gallery where owners can upload photos of their own Cocker Spaniels.
+
+### Newsletter Sign-Up
+A simple sign-up form allowing users to receive breed tips and site updates.
 
 ## Deployment
 
@@ -231,8 +238,6 @@ To run this project locally:
 ```
 git clone https://github.com/Hybrid965/the-cocker-spaniel.git
 ```
-
----
 
 ## Credits
 
