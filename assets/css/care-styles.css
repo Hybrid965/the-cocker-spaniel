@@ -34,10 +34,6 @@ main {
 
 /* ------------------------------------------------------*/
 /* Universal */
-.lato {
-    font-family: "lato", sans-serif;
-}
-
 .padding {
     padding: 10px;
 }
@@ -261,9 +257,6 @@ span.hero-navigation {
     margin: 0;
 }
 
-.tip-title {
-    font-style: normal;
-}
 .tip-sub-heading{
     padding-bottom: 10px;
 }
@@ -287,12 +280,6 @@ caption {
     text-align: center;
     letter-spacing: 0.5px;
 
-}
-
-#table-heading th {
-    padding: 20px;
-    font-size: 1.1rem;
-    letter-spacing: 1px;
 }
 
 td {
