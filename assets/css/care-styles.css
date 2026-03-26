@@ -21,16 +21,26 @@ body {
 main {
     flex: 1 1 300px
 }
+
+/* ------------------------------------------------------*/
+/* Skip Link */
 .skip-link {
     position: absolute;
     top: -100px;
-    left: 0;
-    background: #000;
+    left: 10%;
     color: #fff;
     padding: 10px;
     z-index: 100;
 }
 
+/* Credit - W3schools */
+
+.skip-link:focus {
+    top: 0;
+    z-index: 9999;
+}
+
+/* Credit - W3schools */
 
 /* ------------------------------------------------------*/
 /* Universal */
@@ -165,6 +175,7 @@ a.hero-navigation:hover {
 a.hero-navigation {
     padding-left: 15px;
 }
+
 span.hero-navigation {
     padding-left: 15px;
 }
@@ -257,22 +268,25 @@ span.hero-navigation {
     margin: 0;
 }
 
-.tip-sub-heading{
+.tip-sub-heading {
     padding-bottom: 10px;
 }
+
 /* ------------------------------------------------------*/
 /* Table */
 table {
     margin: 40px auto;
-    border-collapse: collapse; /* Credit W3Schools */
+    border-collapse: collapse;
+    /* Credit W3Schools */
     background-color: white;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
     border-radius: 2%;
     overflow: hidden;
     font-family: 'Lato', sans-serif;
 }
+
 caption {
-    font-family: 'Playfair Display', serif; 
+    font-family: 'Playfair Display', serif;
     font-size: 1.6rem;
     font-weight: 600;
     color: #122c47;
@@ -457,7 +471,7 @@ footer {
 
 /* Media Querys*/
 @media (max-width: 1200px) {
-    #exercise-inner{
+    #exercise-inner {
         flex-direction: column;
 
     }
@@ -511,13 +525,14 @@ footer {
     }
 
     /* Tip cards */
-    .tip-container{
+    .tip-container {
         width: 90%;
     }
 
-    .tip-content{
+    .tip-content {
         font-size: 14px;
     }
+
     /* Footer */
     footer {
         flex-direction: column;

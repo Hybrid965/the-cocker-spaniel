@@ -18,16 +18,25 @@ body {
     background-color: #faf6ef;
 }
 
+/* ------------------------------------------------------*/
+/* Skip Link */
 .skip-link {
     position: absolute;
     top: -100px;
-    left: 0;
-    background: #000;
+    left: 10%;
     color: #fff;
     padding: 10px;
     z-index: 100;
 }
 
+/* Credit - W3schools */
+
+.skip-link:focus {
+    top: 0;
+    z-index: 9999;
+}
+
+/* Credit - W3schools */
 /* ------------------------------------------------------*/
 /* Nav Bar */
 #nav-bar {
@@ -98,7 +107,7 @@ body {
 .hero h1 {
     font-size: 60px;
     font-weight: 400;
-    
+
 }
 
 .hero h1 span {
@@ -133,6 +142,7 @@ a.hero-navigation:hover {
 a.hero-navigation {
     padding-left: 15px;
 }
+
 span.hero-navigation {
     padding-left: 15px;
 }
@@ -192,7 +202,7 @@ span.hero-navigation {
     color: #8b4513;
 }
 
-#table-caption{
+#table-caption {
     font-weight: 600;
 }
 

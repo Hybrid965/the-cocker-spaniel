@@ -18,16 +18,22 @@ body {
     background-color: #faf6ef;
 }
 
+/* ------------------------------------------------------*/
+/* Skip Link */
+
 .skip-link {
     position: absolute;
     top: -100px;
-    left: 0;
-    background: #000;
+    left: 10%;
     color: #fff;
     padding: 10px;
     z-index: 100;
-}
+}/* Credit - W3schools */
 
+.skip-link:focus {
+  top: 0;
+  z-index: 9999;
+}/* Credit - W3schools */
 /* ------------------------------------------------------*/
 /* Nav Bar */
 #nav-bar {
